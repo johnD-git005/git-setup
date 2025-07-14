@@ -43,11 +43,11 @@ On Linux (Ubuntu)
 2. Configure Git (One-time setup)
 Set your name and email (used for commits):
 	git config --global user.name "Your Name"
-	git config --global user.email "you@example.com"
+	git config --global user.email "user@example.com"
 
 3. Generate SSH Key (to connect GitHub)
 	Step 1: Generate the SSH key
-		ssh-keygen -t ed25519 -C "you@example.com"
+		ssh-keygen -t ed25519 -C "user@example.com"
 
 		Press Enter 3 times to accept the defaults.
 
